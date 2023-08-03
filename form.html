@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    
+</head>
+<body>
+    <form>
+        
+        <!-- readonly
+        required
+        disable -->
+
+    <lable for="name">Enter your name:</lable>
+    <input required  maxlength="5" type="text" id="name" placeholder="enter your full name">
+    <br><br>
+    <lable for="pass">password :</lable>
+    <input  readonly type="password" id="pass">
+    <br><br>
+    <lable for="mail">Email:</lable>
+    <input disabled type="email" id="mail">
+    <input type="submit" value="login">
+    <br><br>
+    <input type="color">
+    <br><br>
+    <input type="date" min="2023-07-31" max="2023-08-15">
+    <br><br>
+    <input type="time">
+    <br><br>
+    <input type="month">
+    <br><br>
+    <input type="file" multiple>
+    
+    <br><br>
+    <input type="file" multiple accept="image/*"> <!-- for image  uplode-->
+    <br><br>
+    <input type="image">   <!-- image as submit button-->
+    <br><br>
+    <!--radio-->
+    <input type="radio" id="male" name="gender">
+    <lable for="male">Male</lable>
+    <input type="radio" id="female" name="gender">  
+    <lable for="female">Female</lable>
+    <!-- in checkbox you can select multiple values  -->
+    <input type="checkbox" id="male" name="gender">
+    <lable for="male">Male</lable>
+    <input type="checkbox" id="female" name="gender">  
+    <lable for="female">Female</lable>
+    <br><br>
+
+    <textarea></textarea>
+    <br><br>
+
+    <select>
+        <optgroup label="transport">
+        <option value="1">car</option>
+        <option value="2">bus</option>
+        <option value="3" disabled>bike</option>
+        </optgroup>
+
+        <optgroup label="transport type 2">
+            <option value="1">car 1</option>
+            <option value="2">bus 2</option>
+            <option value="3">bike 3</option>
+            </optgroup>
+
+    </select>
+    </form>
+
+</body>
+</html>
