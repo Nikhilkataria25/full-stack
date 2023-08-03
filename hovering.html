@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 0px 50% ;   
+            /* border: 2px solid black; */
+            /* transition: all 3s; */
+            transition: width 2s ,height 5s;
+        }
+        .myimage{
+            width: 200px;
+            border-radius: 50%;
+            transition: all 5s;
+        }
+
+        .myimage:hover{
+            /* transform: rotate(360deg); */
+            transform: scaleY(0.5);
+
+        }
+        .mybutton{
+            background-color: #FF457F;
+            color: white;
+            padding: 5px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+        .mybutton:hover{  /*hovering effect*/
+            background-color: aqua;
+            color: black;
+        }
+        .box:hover{
+            width: 200px;
+            height: 200px;
+            background-color: darkslategrey;
+            border-radius: 0px 50%;
+            transform: rotate(90deg);
+
+        }
+
+    </style>
+
+  </head>
+  <body>
+    <button class="mybutton">home</button>
+
+    <br><br>
+    <img src="./image/Jaipur-Travel-Shopping-Restaurants.webp" class="myimage">
+    <br>
+    <div class="box"></div>
+    
+    
+
+    
+  
+  </body>
+</html>
